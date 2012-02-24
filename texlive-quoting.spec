@@ -1,12 +1,12 @@
-# revision 23875
+# revision 25474
 # category Package
 # catalog-ctan /macros/latex/contrib/quoting
-# catalog-date 2011-09-08 17:34:21 +0200
+# catalog-date 2012-02-22 10:43:42 +0100
 # catalog-license lppl1.3
-# catalog-version v0.1a
+# catalog-version v0.1b
 Name:		texlive-quoting
-Version:	v0.1a
-Release:	2
+Version:	v0.1b
+Release:	1
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
@@ -21,10 +21,10 @@ Requires(post):	texlive-kpathsea
 
 %description
 As an alternative to the LaTeX standard environments quotation
-and quote, the quoting package provides a consolidated
-environment for displayed text. First-line indentation is
-activated by adding a blank line before the quoting
-environment. A key--value interface allows to configure font
+and quote, the package provides a consolidated environment for
+displayed text. First-line indentation may be activated by
+adding a blank line before the quoting environment. A key-value
+interface (using kvoptions) allows the user to configure font
 properties and spacing and to control orphans within and after
 the environment.
 
