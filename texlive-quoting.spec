@@ -1,12 +1,12 @@
-# revision 25474
+# revision 32818
 # category Package
 # catalog-ctan /macros/latex/contrib/quoting
-# catalog-date 2012-02-22 10:43:42 +0100
+# catalog-date 2014-01-29 17:50:59 +0100
 # catalog-license lppl1.3
-# catalog-version v0.1b
+# catalog-version v0.1c
 Name:		texlive-quoting
-Version:	v0.1b
-Release:	5
+Version:	v0.1c
+Release:	1
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
@@ -54,21 +54,3 @@ the environment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.1b-1
-+ Revision: 780577
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.1a-2
-+ Revision: 755572
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.1a-1
-+ Revision: 719426
-- texlive-quoting
-- texlive-quoting
-- texlive-quoting
-- texlive-quoting
-
