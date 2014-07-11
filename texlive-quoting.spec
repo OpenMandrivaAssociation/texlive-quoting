@@ -6,7 +6,7 @@
 # catalog-version v0.1c
 Name:		texlive-quoting
 Version:	v0.1c
-Release:	2
+Release:	3
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
