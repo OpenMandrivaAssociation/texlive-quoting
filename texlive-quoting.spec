@@ -1,12 +1,6 @@
-# revision 32818
-# category Package
-# catalog-ctan /macros/latex/contrib/quoting
-# catalog-date 2014-01-29 17:50:59 +0100
-# catalog-license lppl1.3
-# catalog-version v0.1c
 Name:		texlive-quoting
-Version:	v0.1c
-Release:	5
+Version:	0.1c
+Release:	1
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
