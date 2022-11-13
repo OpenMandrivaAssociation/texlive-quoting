@@ -1,13 +1,13 @@
 Name:		texlive-quoting
-Version:	0.1c
-Release:	2
+Version:	32818
+Release:	1
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/quoting.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +23,12 @@ properties and spacing and to control orphans within and after
 the environment.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -41,7 +41,8 @@ the environment.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
