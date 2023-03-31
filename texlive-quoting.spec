@@ -1,6 +1,6 @@
 Name:		texlive-quoting
 Version:	32818
-Release:	1
+Release:	2
 Summary:	Consolidated environment for displayed text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/quoting
